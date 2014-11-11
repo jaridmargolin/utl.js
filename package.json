@@ -1,0 +1,24 @@
+{
+  "name": "utl.js",
+  "description": "Common javascript utilities.",
+  "author": "Jarid Margolin <jaridmargolin@gmail.com>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jaridmargolin/utl.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaridmargolin/utl.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jaridmargolin/utl.js/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "dist/common/utl.js",
+  "devDependencies": {
+    "easy-build": "~0.0.6",
+    "proclaim": "^2.0.0",
+    "sinon": "~1.10.1"
+  },
+  "license": "MIT"
+}
