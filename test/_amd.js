@@ -17,7 +17,7 @@ define([
 describe('amd - utl.js', function () {
 
   it('Should expose methods.', function () {
-    assert.ok(_.capitalize);
+    assert.ok(_.isFunction);
   });
 });
 

@@ -1,6 +1,6 @@
 # utl.js [![Build Status](https://travis-ci.org/jaridmargolin/utl.js.png)](https://travis-ci.org/jaridmargolin/utl.js)
 
-Common javascript utilities.
+Modular utilities.
 
 
 

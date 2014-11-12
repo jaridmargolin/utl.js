@@ -1,6 +1,6 @@
 {
   "name": "utl.js",
-  "description": "Common javascript utilities.",
+  "description": "Modular utilities.",
   "author": "Jarid Margolin <jaridmargolin@gmail.com>",
   "version": "0.0.1",
   "homepage": "https://github.com/jaridmargolin/utl.js",
@@ -18,7 +18,8 @@
   "devDependencies": {
     "easy-build": "~0.0.6",
     "proclaim": "^2.0.0",
-    "sinon": "~1.10.1"
+    "sinon": "~1.10.1",
+    "underscore": "^1.7.0"
   },
   "license": "MIT"
 }
