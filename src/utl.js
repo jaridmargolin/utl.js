@@ -12,6 +12,7 @@ define(function (require) {
  * ---------------------------------------------------------------------------*/
 
 return {
+  extend       : require('./extend'),
   isArray      : require('./isArray'),
   isEmpty      : require('./isEmpty'),
   isFunction   : require('./isFunction'),

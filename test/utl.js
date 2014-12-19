@@ -17,6 +17,7 @@ define([
 describe('utl.js', function () {
 
   it('Should expose methods.', function () {
+    assert.ok(_.extend);
     assert.ok(_.isArray);
     assert.ok(_.isEmpty);
     assert.ok(_.isFunction);

@@ -12,6 +12,7 @@
  * ---------------------------------------------------------------------------*/
 
 module.exports = {
+  extend       : require('./extend'),
   isArray      : require('./isArray'),
   isEmpty      : require('./isEmpty'),
   isFunction   : require('./isFunction'),

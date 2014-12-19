@@ -15,11 +15,24 @@
 }(this, function () {
 
 /*!
+ * extend.js
+ *
+ * Copyright (c) 2014
+ */
+var extend, isArray, isEmpty, isFunction, isNull, isObject, isUndefined, tmpl, toArray, utl;
+extend = function (dest) {
+  for (var i = 1; i < arguments.length; i++) {
+    for (var k in arguments[i]) {
+      dest[k] = arguments[i][k];
+    }
+  }
+  return dest;
+};
+/*!
  * isArray.js
  * 
  * Copyright (c) 2014
  */
-var isArray, isEmpty, isFunction, isNull, isObject, isUndefined, tmpl, toArray, utl;
 isArray = function (value) {
   return Object.prototype.toString.call(value) === '[object Array]';
 };
@@ -99,6 +112,7 @@ toArray = function (args, start, end) {
  * Copyright (c) 2014
  */
 utl = {
+  extend: extend,
   isArray: isArray,
   isEmpty: isEmpty,
   isFunction: isFunction,
