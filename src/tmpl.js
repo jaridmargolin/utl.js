@@ -29,7 +29,7 @@ define(function () {
  */
 return function (str, data) {
   return str.replace(/{([^{}]*)}/g, function(a, b) {
-    return typeof data[b] === 'string' ? data[b] : a;
+    return typeof (data[b] + '') === 'string' ? data[b] : a;
   });
 };
 

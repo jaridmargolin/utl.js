@@ -16,13 +16,13 @@ define([
 
 describe('tmpl.js', function () {
 
-  it('Should template array of values.', function () {
-    var msg = tmpl('{0}{1}{1}', ['msg','!']);
+  it('Should template using passed array.', function () {
+    var msg = tmpl('{0}{1}{1}', [0,'!']);
     
-    assert.equal(msg, 'msg!!');
+    assert.equal(msg, '0!!');
   });
 
-  it('Should template objet values.', function () {
+  it('Should template using passed object.', function () {
     var msg = tmpl('{text}{punctuation}{punctuation}', {
       text: 'msg',
       punctuation: '!'
