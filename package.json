@@ -16,10 +16,11 @@
   },
   "main": "dist/common/utl.js",
   "devDependencies": {
-    "easy-build": "~0.0.6",
-    "proclaim": "^2.0.0",
-    "sinon": "~1.10.1",
-    "underscore": "^1.7.0"
+    "easy-build": "~1.0.0",
+    "grunt": "~1.0.1",
+    "proclaim": "~ 3.4.1",
+    "sinon": "~1.17.5",
+    "underscore": "~1.7.0"
   },
   "license": "MIT"
 }
